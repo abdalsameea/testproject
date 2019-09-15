@@ -325,8 +325,6 @@ Search / Replace / Match /Split /Test
 
 
 
-
-
 var intTextBox = 0;
 
 function addElement() {
@@ -355,6 +353,14 @@ function removeElement() {
 
 
 
+function start() {
+  setInterval(function(){ alert("Hello"); }, 2000);
+}
+
+
+
+
+
 function myFunction() {
   document.getElementById("myDIV").classList.add("mystyle");
 }
@@ -362,8 +368,6 @@ function myFunction() {
 
 
 
-function start() {
-  setInterval(function(){ alert("Hello"); }, 2000);
-}
+
 
 
